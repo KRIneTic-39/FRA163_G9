@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="projectile2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/projectile2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/projectile2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="E:/FRA142_VDO/SDL2-2.0.14/x86_64-w64-mingw32/include/SDL2" />
+			<Add directory="E:/FRA142_VDO/SDL2_image-2.0.5/x86_64-w64-mingw32/include/SDL2" />
+			<Add directory="E:/FRA142_VDO/SDL2_ttf-2.0.15/x86_64-w64-mingw32/include/SDL2" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image  -lSDL2_ttf" />
+			<Add directory="E:/FRA142_VDO/SDL2-2.0.14/x86_64-w64-mingw32/lib" />
+			<Add directory="E:/FRA142_VDO/SDL2_image-2.0.5/x86_64-w64-mingw32/lib" />
+			<Add directory="E:/FRA142_VDO/SDL2_ttf-2.0.15/x86_64-w64-mingw32/lib" />
+		</Linker>
+		<Unit filename="button.cpp" />
+		<Unit filename="game.cpp" />
+		<Unit filename="game.h" />
+		<Unit filename="gameobject.cpp" />
+		<Unit filename="gameobject.h" />
+		<Unit filename="inputmanager.cpp" />
+		<Unit filename="inputmanager.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="map.cpp" />
+		<Unit filename="objectmanager.h" />
+		<Unit filename="projectile.cpp" />
+		<Unit filename="projectile.h" />
+		<Unit filename="rockerbutton.cpp" />
+		<Unit filename="squashball.cpp" />
+		<Unit filename="texturemanager.cpp" />
+		<Unit filename="texturemanager.h" />
+		<Unit filename="uilabel.cpp" />
+		<Unit filename="vector2d.cpp" />
+		<Unit filename="vector2d.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
