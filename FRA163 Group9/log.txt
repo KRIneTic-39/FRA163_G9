@@ -1,0 +1,1 @@
+Log: Launcher_Info(x = 0 m, y = 0.537 m, mecha_mass = 25 g) Target_Info(x = 0.2 m, y = 0.4 m) Spring_Info(k = 350 N/m, spring_x = 0.9628cm) Projectile_Info(initial_vel = 1.0790 m/s, angle = 45 deg)
